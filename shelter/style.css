@@ -20,6 +20,17 @@ h3 {
     line-height: 130%;
     letter-spacing: 0.06em;
 }
+h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
 [class*=__container] {
     width: 1200px;
     margin: 0 auto;
@@ -293,7 +304,70 @@ p {
     line-height: 23px;
     letter-spacing: 0.06em;
 }
+.help-item {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-right: 80px;
+}
 .help-icon {
     width: 60px;
     height: 60px;
+}
+.donation {
+    background: #F6F6F6;
+}
+.donation-content {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.donation-dog {
+    width: 505px;
+    height: 261px;
+}
+.donation-block {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+.donation-subheader {
+    margin-top: 20px;
+}
+.donation-card {
+    margin-top: 20px;
+    width: 349px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    background: #F1CDB3;
+    border-radius: 9px;
+    border:none;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.donation-card-icon {
+    width: 30px;
+    height: 23px;
+}
+.donation-text {
+    padding-top: 20px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
 }
