@@ -30,7 +30,9 @@ h5 {
     color: #545454;
 }
 [class*=__container] {
-    width: 1200px;
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 
@@ -38,8 +40,6 @@ h5 {
     margin-top: 30px;
 }
 .header__container {
-    width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,12 +50,15 @@ h5 {
     line-height: 110%;
     margin-bottom: 10px;
     color: #F1CDB3;
+    font-family: "Georgia";
+    letter-spacing: 0.06em;
 }
 .logo_subtitle {
     color:white;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
+    padding-left: 3px;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.1em;
@@ -63,16 +66,18 @@ h5 {
 .nav-list {
     display: flex;
     flex-direction: row;
+    gap: 0 30px;
 }
 .nav-item {
+    font-family: "Arial";
+    list-style-type: none;
     font-size: 15px;
     line-height: 160%;
     color: #CDCDCD;
-    margin-right: 35px;
     cursor:pointer;
     margin-top: 2px;
 }
-.nav-item:hover {
+.nav-item_active{
     border-bottom: 3px #F1CDB3 solid;
 }
 .nav-item:last-child {
@@ -112,6 +117,7 @@ h5 {
     height: 728px;
     background-image:url(/shelter/assets/img/start-screen-puppy.png);
     background-repeat: no-repeat;
+    margin-left: 40px;
 }
 .start-btn {
     margin-top: 42px;
@@ -135,17 +141,20 @@ h5 {
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .about-pets {
     width: 300px;
     height: 408px;
     background-image:url(/shelter/assets/img/about-pets.png);
     background-repeat: no-repeat;
+    margin-right: -63px;
 }
 .about-text {
     padding-top: 14px;
     padding-bottom: 14px;
+    margin-right: -20px;
 }
 .about-title {
     width: 370px;
@@ -175,12 +184,13 @@ h5 {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-left: 17px;
 }
 .pets-slider {
     margin-top: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items:center;
 }
 .pets-slide {
@@ -197,6 +207,13 @@ h5 {
     width: 52px;
     height: 52px;
     background-color:#F6F6F6;
+    position: absolute;
+}
+.arrow_prev {
+    left: 40px;
+}
+.arrow_next {
+    right: 22px;
 }
 .arrow-left {
     width: 15px;
@@ -272,15 +289,16 @@ h5 {
 }
 .help-title {
     text-align: center;
-    width: 308px;
+    width: 315px;
 }
 .help-list {
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap:wrap;
-    height: 281px;
-    width: 1026px;
+    /* height: 281px;
+    width: 1026px; */
+    gap: 53px 135px;
 }
 /* .help-item-title {
     padding-top: 30px;
@@ -300,13 +318,12 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    letter-spacing: 0.06em;
 }
 .help-item {
     display: flex;
     align-items:center;
     flex-direction: column;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 .help-icon {
     width: 60px;
@@ -322,13 +339,13 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    column-gap: 40px;
 }
 .donation-dog {
     width: 505px;
     height: 261px;
 }
 .donation-block {
-    margin-left: 30px;
     display: flex;
     flex-direction: column;
     width: 380px;
@@ -379,6 +396,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 278px;
+    margin-top: 14px;
 }
 .footer-locations {
     width: 302px;
@@ -411,6 +429,10 @@ p {
 .footer-contacts-mail-icon .footer-contacts-phone-icon {
     width: 40px;
     height: 32px;
+}
+.footer-location {
+    margin-top: 34px;
+    margin-left: 6px;
 }
 
 
