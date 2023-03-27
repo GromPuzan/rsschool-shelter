@@ -1,9 +1,16 @@
+html {
+    scroll-behavior: smooth;
+    }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family:Georgia, 'Times New Roman', Times, serif, monospace;
   }
+  a {
+    text-decoration: none;
+    color: inherit;
+ }
   h3 {
     color: #545454;
     font-family: 'Georgia';
@@ -33,8 +40,10 @@ p {
     line-height: 23px;
     letter-spacing: 0.06em;
 }
-  [class*=__container] {
-    width: 1200px;
+[class*=__container] {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 
@@ -43,8 +52,6 @@ p {
     margin-bottom: 30px;
 }
 .header__container {
-    width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,12 +62,18 @@ p {
     line-height: 110%;
     margin-bottom: 10px;
     color: #545454;
+    font-family: "Georgia";
+    letter-spacing: 0.06em;
+}
+.logo_title:hover {
+    color:black;
 }
 .logo_subtitle {
-    color: #292929;
+    color: #545454;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
+    padding-left: 3px;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.1em;
@@ -68,41 +81,46 @@ p {
 .nav-list {
     display: flex;
     flex-direction: row;
+    gap: 0 30px;
 }
 .nav-item {
+    font-family: "Arial";
     list-style-type: none;
     font-size: 15px;
     line-height: 160%;
     color: #545454;
-    margin-right: 35px;
     cursor:pointer;
     margin-top: 2px;
 }
 .nav-item:hover {
+     color:black;
+}
+.nav-item_active{
+    user-select: none;
     border-bottom: 3px #F1CDB3 solid;
 }
 .nav-item:last-child {
     margin-right: 0px;
 }
 
-.pets {
+.our-friends {
     background:#F6F6F6;
 }
-.pets-content {
+.our-friends-content {
     padding-top: 80px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.pets-title {
+.our-friends-title {
     width: 400px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-self: center;
 }
-.pets-slider {
+.our-friends-slider {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -110,7 +128,7 @@ p {
     align-items:center;
     flex-wrap: wrap;
 }
-.pets-slide {
+.our-friends-slide {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -119,7 +137,7 @@ p {
     background-color:#FAFAFA;
     border-radius: 9px 9px 9px 9px;
 }
-.pets-arrow{
+.our-friends-arrow{
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     width: 52px;
@@ -135,7 +153,7 @@ p {
     height: 7px;
     transform: rotate(180deg);
 }
-.pets-slide-img {
+.our-friends-slide-img {
     border-radius: 9px 9px 0px 0px;
     height: 270px;
     width: 270px;
@@ -150,7 +168,7 @@ p {
     line-height: 23px;
     letter-spacing: 0.06em;
 } */
-.pets-slide-btn {
+.our-friends-slide-btn {
     margin-top: 30px;
     margin-bottom: 30px;
     border: 2px solid #F1CDB3;
@@ -167,7 +185,7 @@ p {
     letter-spacing: 0.06em;
     color: #292929;
 }
-.pets-btn {
+.our-friends-btn {
     display: flex;
     align-self:center;
     align-items:center;
@@ -187,14 +205,14 @@ p {
     letter-spacing: 0.06em;
     color: #292929;
 }
-.pets-nav {
-    margin-top: 45px;
+.our-friends-nav {
+    margin-top: 58px;
     width: 342px;
     display: flex;
     align-items:center;
     justify-content: space-between;
 }
-.pets-nav-btn {
+.our-friends-nav-btn {
     width: 52px;
     height: 52px;
     border: 2px solid #CDCDCD;
@@ -225,6 +243,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 278px;
+    margin-top: 14px;
 }
 .footer-locations {
     width: 302px;
@@ -258,10 +277,39 @@ p {
     width: 40px;
     height: 32px;
 }
+.footer-location {
+    margin-top: 34px;
+    margin-left: 6px;
+}
 
 
 
 .footer-puppy {
     width: 300px;
     height: 310px;
+}
+
+
+
+.footer-puppy {
+    width: 300px;
+    height: 310px;
+}
+.our-friends-slide-btn:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+.our-friends-slide:hover {
+    background-color:#F6F6F6;
+}
+.our-friends-arrow:hover {
+    background-color:#F1CDB3;
+    cursor: pointer;
+}
+.btn-active:hover {
+    background-color:#F1CDB3;
+    cursor: pointer;
+}
+.btn-inactive:hover {
+    cursor:not-allowed;
 }
