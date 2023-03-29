@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (max-width: 900px){
     [class*=__container] {
         width: 100%;
         max-width: 768px;
@@ -41,5 +41,107 @@
     .footer-puppy {
         margin-left: 188px;
         margin-top: 65px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .not-only-title {
+        font-size: 25px;
+        width: 280px;
+    }
+    .not-only-subtitle {
+        width: 290px;
+        line-height: 160%;
+    }
+    [class*=__container] {
+        width: 100%;
+        max-width: 320px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .nav {
+        display: none;
+    }
+    .not-only-img {
+        margin-top: 105px;
+        width: 260px;
+        height: 271px;
+        background-size: contain;
+
+    }
+    .about-content {
+        padding-bottom: 42px;
+    }
+    .about-text {
+        margin-right: 0px;
+    }
+    .about-title {
+        font-size: 25px;
+        text-align: center;
+        width: auto;
+    }
+    .about-subtitle {
+        width: auto;
+        text-align: center;
+    }
+    .about-pets {
+        margin-right: 0px;
+        width: 260px;
+        height: 353px;
+        background-size: contain;
+    }
+    .our-friends-title {
+        font-size: 25px;
+        margin-left: 0px;
+        width: auto;
+    }
+    .arrow-next {
+        right: 81px;
+    }
+    .our-friends-slide:nth-child(3) {
+        display: none;
+    }
+    .help-title {
+        font-size: 25px;
+    }
+    .help-list {
+        justify-content: space-around;
+        align-self: center;
+        align-items:center;
+        align-content: center;
+        gap: 0 0;
+    }
+    .help-item {
+        width: 130px;
+        height: 87px;
+        margin-bottom: 84px;
+    }
+    .in-addition-content {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    .in-addition-block {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .in-addition-card {
+        width: 280px;
+        font-size: 15px;
+}
+    .in-addition-dog {
+        margin-top: 42px;
+        width: 260px;
+        height: 135.2px;
+        background-size: contain;
+    }
+    .footer-puppy {
+        width: 260px;
+        height: 269px;
+        margin-left: 0px;
     }
 }
