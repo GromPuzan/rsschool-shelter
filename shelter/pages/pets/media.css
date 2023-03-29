@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px){
+    [class*=__container] {
+        width: 100%;
+        max-width: 768px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+    .our-friends-slider {
+        justify-content: space-evenly;
+    }
+    .our-friends-slide:nth-child(8) {
+        display: none;
+    }
+    .our-friends-slide:nth-child(7) {
+        display: none;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+    .footer-puppy {
+        margin-left: 188px;
+        margin-top: 65px;
+    }
+}
