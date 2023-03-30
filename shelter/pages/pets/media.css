@@ -28,6 +28,18 @@
         font-size: 25px;
         text-align: center;
     }
+    .nav-hamb {
+        width: 30px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-hamb-line {
+        border-top: 2px solid black;
+        width: 30px;
+        padding-bottom: 10px;
+    }
     .not-only-title {
         font-size: 25px;
         width: 280px;
