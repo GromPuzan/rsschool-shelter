@@ -23,3 +23,85 @@
         margin-top: 65px;
     }
 }
+@media screen and (max-width: 374px){
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .not-only-title {
+        font-size: 25px;
+        width: 280px;
+    }
+    .not-only-subtitle {
+        width: 290px;
+        line-height: 160%;
+    }
+    [class*=__container] {
+        width: 100%;
+        max-width: 320px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .nav {
+        display: none;
+    }
+    .not-only-img {
+        margin-top: 105px;
+        width: 260px;
+        height: 271px;
+        background-size: contain;
+
+    }
+    .about-content {
+        padding-bottom: 42px;
+    }
+    .about-text {
+        margin-right: 0px;
+    }
+    .about-title {
+        font-size: 25px;
+        text-align: center;
+        width: auto;
+    }
+    .about-subtitle {
+        width: auto;
+        text-align: center;
+    }
+    .about-pets {
+        margin-right: 0px;
+        width: 260px;
+        height: 353px;
+        background-size: contain;
+    }
+    .our-friends-title {
+        font-size: 25px;
+        margin-left: 0px;
+        width: auto;
+    }
+    .our-friends-nav {
+        width: 300px;
+    }
+    /* .our-friends-slide:nth-child(3) {
+        display: none;
+    } */
+    .our-friends-slide:nth-child(4) {
+        display: none;
+    }
+    .our-friends-slide:nth-child(5) {
+        display: none;
+    }
+    .our-friends-slide:nth-child(6) {
+        display: none;
+    }
+    .footer-contacts-title {
+        font-size: 25px;
+    }
+    .footer-locations-title {
+        font-size: 25px;
+    }
+    .footer-puppy {
+        width: 260px;
+        height: 269px;
+        margin-left: 0px;
+    }
+}
