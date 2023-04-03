@@ -126,7 +126,7 @@ h5 {
 .not-only-img {
     width: 698px;
     height: 728px;
-    background-image:url(/shelter/assets/img/start-screen-puppy.png);
+    background-image:url(/rsschool-shelter/shelter/assets/img/start-screen-puppy.png);
     background-repeat: no-repeat;
     margin-left: 40px;
     background-size: contain;
@@ -162,7 +162,7 @@ h5 {
 .about-pets {
     width: 300px;
     height: 408px;
-    background-image:url(/shelter/assets/img/about-pets.png);
+    background-image:url(/rsschool-shelter/shelter/assets/img/about-pets.png);
     background-repeat: no-repeat;
     margin-right: -58px;
     background-size: contain;
