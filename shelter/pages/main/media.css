@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 900px){
     [class*=__container] {
         width: 100%;
@@ -101,24 +102,8 @@
         margin-top: 62px;
     }
 }
+@media screen and (max-width: 767px){
 
-@media screen and (max-width: 374px){
-    h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-    [class*=__container] {
-        width: 100%;
-        max-width: 320px;
-        padding: 0 10px;
-        margin: 0 auto;
-    }
-    .header__container {
-        padding: 0 20px;
-    }
-    .help__container {
-        padding: 0 0px;
-    }
     .nav {
         /* position: absolute;
         width: 320px;
@@ -186,6 +171,45 @@
         padding-bottom: 8px;
         transition: 0.3s all;
     }
+    .not-only-img {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 580px){
+    .not-only-img {
+        width: 469px;
+        height: 498px;
+    }
+    .our-friends-slider {
+        flex-wrap: wrap;
+    }
+    .in-addition-dog {
+        background-size: contain;
+        width: 415px;
+        height: 245px;
+    }
+    .footer-puppy {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 475px){
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    [class*=__container] {
+        width: 100%;
+        max-width: 320px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .header__container {
+        padding: 0 20px;
+    }
+    .help__container {
+        padding: 0 0px;
+    }
+
     .not-only {
         margin-top: 60px;
     }
@@ -194,6 +218,7 @@
         width: 197px;
         letter-spacing: 0.06em;
         text-align: center;
+        margin-right: 0px;
     }
     .not-only-subtitle {
         width: 294px;
@@ -208,6 +233,7 @@
         width: 260px;
         height: 271px;
         background-size: contain;
+        margin-left: 40px;
 
     }
     .about-content {
@@ -229,7 +255,7 @@
         text-align: justify;
     }
     .about-pets {
-        margin-top: 28px;
+        margin-top: 40px;
         margin-right: 0px;
         width: 260px;
         height: 353px;
@@ -246,8 +272,11 @@
     .our-friends-slider {
         margin-top: 42px;
     }
+    .our-friends-slide:nth-child(2) {
+        margin-right: 0px;
+    }
     .our-friends-btn {
-        margin-top: 112px;
+        margin-top: 43px;
     }
     .arrow-next {
         right: 81px;
@@ -290,7 +319,7 @@
     }
     .in-addition-content {
         padding-top: 42px;
-        padding-bottom: 42px;
+        padding-bottom: 41px;
     }
     .in-addition-block {
         width: 278px;
@@ -315,7 +344,7 @@
         background-size: contain;
     }
     .footer-content {
-        padding-top: 30px;
+        padding-top: 28px;
     }
     .footer-contacts {
         margin-top: 0px;
@@ -324,21 +353,43 @@
         font-size: 25px;
         width: 291px;
     }
+    .footer-contacts, .footer-locations {
+        margin-left: 0px;
+    }
     .footer-contacts-mail, .footer-contacts-phone {
         margin-left: 26px;
     }
     .footer-locations {
         margin-top: 40px;
+        margin-right: 0px;
     }
     .footer-location {
         margin-left: 0px;
-        margin-top: 38px;
+        margin-top: 40px;
     }
     .footer-puppy {
         width: 260px;
         height: 269px;
         margin-left: 20px;
         margin-top: 40px;
+    }
+    .our-friends-arrow {
+        display: none;
+    }
+    .our-friends-arrows-mobile {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 183px;
+        margin-left: 57px;
+
+    }
+    .our-friends-arrow-mobile {
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+        width: 52px;
+        height: 52px;
+        background-color:#F6F6F6;
     }
 
 }
