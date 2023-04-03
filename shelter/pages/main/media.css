@@ -5,6 +5,14 @@
         padding: 0 30px;
         margin: 0 auto;
     }
+
+    .nav-list {
+        gap: 0 37px;
+        margin-bottom: 3px;
+    }
+    .not-only {
+        margin-top: 60px;
+    }
     .not-only__container {
         flex-direction: column;
         align-items: center;
@@ -16,18 +24,53 @@
         align-self: center;
         align-items: center;
     }
+    .not-only-title {
+        margin-right: 152px;
+    }
     .not-only-img {
         margin-top: 100px;
         width: 569px;
         height: 593px;
         background-size: contain;
-
+        margin-left: 129px;
     }
     .about-content {
         flex-direction: column-reverse;
     }
+    .about-text {
+        padding: 0;
+        margin: 0;
+    }
+    .about-subtitle {
+        padding-top: 24px;
+    }
+    .about-pets {
+        margin: 80px 0 0 0;
+    }
+    .our-friends-title {
+        margin-left: 0px;
+    }
+    .arrow_prev {
+        left: 31px
+    }
+    .arrow_next {
+        right: 30px;
+    }
+    .our-friends-slide:nth-child(2) {
+        margin-right: -22px;
+    }
     .our-friends-slide:nth-child(4) {
         display: none;
+    }
+    .help-list {
+        gap: 54px 59px;
+    }
+    .help-item {
+        width: 170px;
+        height: 113px;
+    }
+    .help-item-title {
+        letter-spacing: 0.06em;
     }
     .in-addition-content {
         flex-direction: column-reverse;
@@ -37,10 +80,25 @@
     }
     .footer-content {
         flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .footer-contacts-title, .footer-locations-title {
+        font-size: 35px;
+        width: 300px;
+    }
+    .footer-contacts, .footer-locations {
+        margin-top: 0px;
+        margin-left: 34px;
+    }
+    .footer-locations {
+        margin-right: 34px;
+    }
+    .footer-location {
+        margin-left: 0px;
     }
     .footer-puppy {
-        margin-left: 188px;
-        margin-top: 65px;
+        margin-left: 204px;
+        margin-top: 62px;
     }
 }
 
