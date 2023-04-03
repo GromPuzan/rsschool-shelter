@@ -377,6 +377,7 @@
         display: none;
     }
     .our-friends-arrows-mobile {
+        display: block;
         margin-top: 20px;
         display: flex;
         justify-content: space-between;
@@ -385,11 +386,14 @@
 
     }
     .our-friends-arrow-mobile {
+        display: block;
         border: 2px solid #F1CDB3;
         border-radius: 100px;
         width: 52px;
         height: 52px;
         background-color:#F6F6F6;
     }
-
+    .desk {
+        display: none;
+    }
 }
