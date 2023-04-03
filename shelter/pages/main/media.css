@@ -49,6 +49,18 @@
         font-size: 25px;
         text-align: center;
     }
+    [class*=__container] {
+        width: 100%;
+        max-width: 320px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .header__container {
+        padding: 0 20px;
+    }
+    .help__container {
+        padding: 0 0px;
+    }
     .nav {
         /* position: absolute;
         width: 320px;
@@ -92,6 +104,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 8px;
     }
     .hamb_active span {
         transform: rotate(90deg);
@@ -112,22 +125,25 @@
     .nav-hamb-line {
         border-top: 2px solid #F1CDB3;
         width: 30px;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         transition: 0.3s all;
+    }
+    .not-only {
+        margin-top: 60px;
     }
     .not-only-title {
         font-size: 25px;
-        width: 280px;
+        width: 197px;
+        letter-spacing: 0.06em;
+        text-align: center;
     }
     .not-only-subtitle {
-        width: 290px;
+        width: 294px;
         line-height: 160%;
+        text-align: center;
     }
-    [class*=__container] {
-        width: 100%;
-        max-width: 320px;
-        padding: 0 20px;
-        margin: 0 auto;
+    .not-only-btn {
+        margin-top: 41px;
     }
     .not-only-img {
         margin-top: 105px;
@@ -138,9 +154,11 @@
     }
     .about-content {
         padding-bottom: 42px;
+        padding-top: 42px;
     }
     .about-text {
         margin-right: 0px;
+        padding-top: 0px;
     }
     .about-title {
         font-size: 25px;
@@ -148,19 +166,30 @@
         width: auto;
     }
     .about-subtitle {
-        width: auto;
-        text-align: center;
+        padding-top: 24px;
+        width: 270px;
+        text-align: justify;
     }
     .about-pets {
+        margin-top: 28px;
         margin-right: 0px;
         width: 260px;
         height: 353px;
         background-size: contain;
     }
+    .our-friends-content {
+        padding:  42px 0;
+    }
     .our-friends-title {
         font-size: 25px;
         margin-left: 0px;
         width: auto;
+    }
+    .our-friends-slider {
+        margin-top: 42px;
+    }
+    .our-friends-btn {
+        margin-top: 112px;
     }
     .arrow-next {
         right: 81px;
@@ -168,10 +197,15 @@
     .our-friends-slide:nth-child(3) {
         display: none;
     }
+    .help-content {
+        padding-top: 42px;
+        padding-bottom: 11px;
+    }
     .help-title {
         font-size: 25px;
     }
     .help-list {
+        margin-top: 42px;
         justify-content: space-around;
         align-self: center;
         align-items:center;
@@ -181,30 +215,72 @@
     .help-item {
         width: 130px;
         height: 87px;
-        margin-bottom: 84px;
+        margin-bottom: 30px;
+    }
+    .help-item:last-child {
+        margin-right: 160px;
+    }
+    .help-item-title {
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        padding-top: 20px;
+    }
+    .help-icon {
+        width: 50px;
+        height: 50px;
     }
     .in-addition-content {
         padding-top: 42px;
         padding-bottom: 42px;
     }
     .in-addition-block {
-        width: auto;
+        width: 278px;
         justify-content: center;
         align-items: center;
+    }
+    .in-addition-subheader {
+        line-height: 160%;
+        letter-spacing: 0.02em;
     }
     .in-addition-card {
         width: 280px;
         font-size: 15px;
-}
+    }
+    .in-addition-text {
+        text-align: justify;
+    }
     .in-addition-dog {
         margin-top: 42px;
         width: 260px;
         height: 135.2px;
         background-size: contain;
     }
+    .footer-content {
+        padding-top: 30px;
+    }
+    .footer-contacts {
+        margin-top: 0px;
+    }
+    .footer-contacts-title, .footer-locations-title{
+        font-size: 25px;
+        width: 291px;
+    }
+    .footer-contacts-mail, .footer-contacts-phone {
+        margin-left: 26px;
+    }
+    .footer-locations {
+        margin-top: 40px;
+    }
+    .footer-location {
+        margin-left: 0px;
+        margin-top: 38px;
+    }
     .footer-puppy {
         width: 260px;
         height: 269px;
-        margin-left: 0px;
+        margin-left: 20px;
+        margin-top: 40px;
     }
+
 }
