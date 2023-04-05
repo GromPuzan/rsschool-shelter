@@ -338,9 +338,7 @@ h5 {
 .our-friends-modal-content {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 88px;
-    padding-right: 20px;
+    padding: 50px 20px 88px 0px;
 }
 .our-friends-modal-header {
     color: #000000;
